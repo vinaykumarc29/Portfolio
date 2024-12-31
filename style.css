@@ -10,21 +10,21 @@
 
 #project1 {
     height: 500px;
-    background-image: url(/work-1.png)  ;
+    background-image: url(work-1.png)  ;
     background-size: cover; 
     background-position: center;
 }
 
 #project2 {
     height: 500px;
-    background-image: url(/work-2.png)  ;
+    background-image: url(work-2.png)  ;
     background-size: cover; 
     background-position: center;
 }
 
 #project3 {
     height: 500px;
-    background-image: url(/work-3.png)  ;
+    background-image: url(work-3.png)  ;
     background-size: cover; 
     background-position: center;
 }
