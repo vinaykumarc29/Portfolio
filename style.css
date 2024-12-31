@@ -1,0 +1,50 @@
+
+.card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+     background-color: rgb(250, 71, 101) !important ;
+}
+
+#project1 {
+    height: 500px;
+    background-image: url(/work-1.png)  ;
+    background-size: cover; 
+    background-position: center;
+}
+
+#project2 {
+    height: 500px;
+    background-image: url(/work-2.png)  ;
+    background-size: cover; 
+    background-position: center;
+}
+
+#project3 {
+    height: 500px;
+    background-image: url(/work-3.png)  ;
+    background-size: cover; 
+    background-position: center;
+}
+
+#proj-info-1,#proj-info-2,#proj-info-3{
+    height: 100% ;
+    width: 100%;
+    opacity: 0;
+    transition: background 0.5s linear, opacity 0.3s linear ;
+}
+
+#project1:hover #proj-info-1,#project2:hover #proj-info-2,#project3:hover #proj-info-3{
+        opacity: 1;
+        background: linear-gradient(rgba(239, 212, 216,0.25),rgb(237, 45, 77)) !important;
+}
+
+
+
+
+
+
+
+
