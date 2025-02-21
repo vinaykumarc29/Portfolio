@@ -23,12 +23,5 @@ const updateExperience =()=>{
     Experience.classList.remove("d-none");
 }
 
-const submit= document.querySelector("#submit").addEventListener("click",(event)=>{
-    event.preventDefault();
-    const form =document.querySelector("#form");
-    form.reset();
-    alert("This feature demands knowledge of backend which i dont have it will come very soon");
-    
-    
-})
+
 

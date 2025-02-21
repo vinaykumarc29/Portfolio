@@ -159,7 +159,7 @@
         <div class="left col-md-6 text-light text-center d-flex flex-column">
           <h1 class="fw-bold text-center ">Contact Me</h1>
           <br>
-          <p class="text-center text-light"><i class="fa-solid fa-paper-plane text-danger fs-5"></i><a class="text-decoration-none text-light"href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbSrBsnfwwKDcprVvbJTKjVSDTNMLrGflrVXRqztrJKrPQJLDDVfPbmDSDQnRZfSfpZsw">vinaykumarc@gmail.com</a></p>
+          <p class="text-center text-light"><i class="fa-solid fa-paper-plane text-danger fs-5"></i><a class="text-decoration-none text-light"href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbSrBsnfwwKDcprVvbJTKjVSDTNMLrGflrVXRqztrJKrPQJLDDVfPbmDSDQnRZfSfpZsw">vinaykumarc204@gmail.com</a></p>
           <br>
           <p><i class="fa-solid fa-phone text-danger"></i> 9182121642</p>
           <div class="social-media  px-3 fs-4 ">
@@ -170,18 +170,18 @@
           </div>
         </div>
         <div class="right col-md-4 bg-dark d-flex flex-column justify-content-center align-items-center d-md-block">
-          <form id="form"action="">
+          <form id="form"action="http://localhost:5000/contact" method="post">
            <div class="mb-3 text-white">
             <label for="name" class="form-label"> </label>
-            <input type="name" class="form-control bg-secondary text-light"  id="name"  placeholder="Name">
+            <input type="name" class="form-control bg-secondary text-light" name="name" id="name"  placeholder="Name">
           </div>
           <div class="mb-3">
             <label for="email" class="form-label"></label>
-            <input type="email" class="form-control bg-secondary text-light" id="email" placeholder="Enter Your Email">
+            <input type="email" class="form-control bg-secondary text-light" name="email" id="email" placeholder="Enter Your Email">
           </div> 
           <div class="mb-3">
             <label for="message" class="form-label "></label>
-            <textarea class="form-control bg-secondary text-light" id="message" rows="3" placeholder="Your Message"></textarea>
+            <textarea class="form-control bg-secondary text-light" name="message" rows="3" id="message" placeholder="Your Message"></textarea>
           </div>
           <input type="submit" id="submit" class="btn btn-danger align-self-center">
         </form>
